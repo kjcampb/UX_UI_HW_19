@@ -1,9 +1,16 @@
 <!DOCTYPE html>
-<link href="css/style.css" rel="stylesheet" type="text/css">
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/xpa0txq.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
 
 
 <body>
-    <head><link rel="stylesheet" href="https://use.typekit.net/xpa0txq.css"></head>
     <header class="navigation">
         
         <!--Logo-->
@@ -20,13 +27,13 @@
                 <li>Contact</li>
             </ul>
 
-            <img class="icon" src="./images/LinkedIn.png">
-            <img class="icon" src="./images/Instagram.png">
+            <img class="icon" id="LINK" src="./images/LinkedIn.png" onmouseover="this.src='./images/LinkedIn Yellow.png'" onmouseout="this.src='./images/LinkedIn.png'"/>
+            <img class="icon" id="INST" src="./images/Instagram.png" onmouseover="this.src='./images/Instagram Yellow.png'" onmouseout="this.src='./images/Instagram.png'">
         </nav>
     </header>
 
     <!--Hero Section-->
-    <section class="landing">
+    <section class="landing bigPic">
         <div class="fiftyPercentLeft">
             <img class="heroImg" src="images/White BG_Blue.png">
         </div>
@@ -34,7 +41,7 @@
             <div><h1 class="heroHead">Hi! I'm Kellen</h1>
             <p class="heroText">I'm a Graphic Designer specializing in UI, branding, and packaging. My favorite aspect of design is the variety and insane creativity from other designers that inspires me to learn more. </p>
             </div>
-            <button>Download Resume</button>
+            <button id="myButton">Download Resume</button>
         </div>
     </section>
 
@@ -73,7 +80,7 @@
 
         <div class="skillCard2"><div class="skillImg"><img class="skillIcon" src="./images/Design Principals.png"></div>
             <h2>Graphic Design</h2>
-            <p> Intermediate knowledge of graphic design principals with 2 years of experience in the industry. A deep passion for helping others through design, especially when it involves packaging, branding, and websites</p>
+            <p> Intermediate knowledge of graphic design principals with two years of experience in the industry. A deep passion for helping others through design, especially when it involves packaging, branding, and websites.</p>
         </div>  
 
         <div class="skillCard3"><div class="skillImg"><img class="skillIcon" src="./images/Adobe Skills.png"></div>
@@ -96,4 +103,6 @@
         </ul>
     </footer>
     </body>
+    <script src="js/index.js"></script>
+    
 </html>

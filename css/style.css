@@ -58,13 +58,19 @@ p {
     letter-spacing: 1px;
   }
 
+.bigPic {
+  opacity:0;
+}
+
 /*padding for landing section*/
 .landing {
     padding-top: 100px;
     padding-bottom:80px;
     display:flex;
     align-items: center;
+    overflow: hidden;/*added for animation*/
     justify-content: space-between;
+    transition: right 1s ease;/*added for animation*/
   }
 
 /*Styling for Hero Section*/
