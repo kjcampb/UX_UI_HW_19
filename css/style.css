@@ -58,8 +58,23 @@ p {
     letter-spacing: 1px;
   }
 
-.bigPic {
+#bigPic {
   opacity:0;
+  /*display: none;*/
+  transition: opacity 0.7s ease-in-out;
+  /*transition: translate(50% 0 0);
+  overflow: hidden;*/
+  translate: 0.7s ease-in-out;
+  animation-delay: 3s;
+  /*transform: translate(50%, 0);*/
+}
+
+/*#bigPic.move {
+  transform: translate(100%, 0);
+}*/
+
+#bigPic.fade {
+  opacity: 1;
 }
 
 /*padding for landing section*/
@@ -173,7 +188,7 @@ button:hover {
   border-radius: 5px;
 }
 
-  .skillsContainer {
+.skillsContainer {
     display:flex;
     width:80%;
     margin: 0 auto;
@@ -252,7 +267,7 @@ footer li {
 }
 
 /*Responsive*/
-/*@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 900px) {
   .skillCard1, .skillCard2, .skillCard3 {
     width: 100%; 
     margin-right: 0;
@@ -320,4 +335,4 @@ footer li {
     width: 100%; 
     margin: 0 auto; 
   }
-}*/
+}
