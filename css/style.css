@@ -1,5 +1,6 @@
 body {
   background-color: #1e1e1e;
+  overflow-x:hidden;
 }
 /*Navigation*/
 .navigation {
@@ -17,7 +18,7 @@ nav ul {
     margin-left: auto;
     display: inline-block;
     vertical-align: top;
-  }
+}
 
 nav li {
   display: inline-block;
@@ -65,9 +66,17 @@ p {
   /*transition: translate(50% 0 0);
   overflow: hidden;*/
   translate: 0.7s ease-in-out;
-  animation-delay: 3s;
+  
   /*transform: translate(50%, 0);*/
 }
+
+/*.bigTimer {
+  transition-duration: 1s;
+}*/
+
+/*#bigPic.slide{
+  transform: translate(100%);
+}*/
 
 /*#bigPic.move {
   transform: translate(100%, 0);

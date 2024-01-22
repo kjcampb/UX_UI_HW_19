@@ -34,12 +34,21 @@
     $( "div:hidden" ).first().fadeIn( "slow" );
   });*/
 
+/*Could not figure out the sliding animation. I worked on this for 14 hours and all it does is fade-in so oh well*/
 let myHero = document.getElementById('bigPic');
 
-  $(document).ready(function(){
+$(document).ready(function(){
     myHero.classList.toggle('fade');
     myHero.classList.toggle('move');
-  });
+});
+
+/*$('bigPic').each(function(index, element) {
+    
+    setTimeout(function(){
+        element.classList.remove('slide');
+    }, index * 500);
+
+});*/
 
 /*var insta = document.getElementById('INST');
 
