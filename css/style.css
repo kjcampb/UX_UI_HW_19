@@ -137,7 +137,7 @@ p {
 }
 
 /* Main Button */
-button {
+#myButton {
   border-radius: 30px;
   border-color: #ec1561;
   background-color: #1e1e1e;
@@ -154,7 +154,7 @@ button {
   margin-top: 16px;
 }
 
-button:hover {
+#myButton:hover {
   background-color: #ec1561;
   color: #1e1e1e;
   cursor: pointer;
@@ -199,6 +199,7 @@ button:hover {
   width: 100%;
   height: auto;
   border-radius: 5px;
+  margin:0px;
 }
 
 .skillsContainer {
